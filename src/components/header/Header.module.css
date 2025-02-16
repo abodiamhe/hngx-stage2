@@ -1,0 +1,77 @@
+.header {
+  width: 100%;
+  font-family: "Fraunces", serif;
+  font-weight: 100;
+  max-width: 120rem;
+  padding: 1.2rem 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-radius: 24px;
+  border: 1px solid #197686;
+  background: rgba(5, 37, 44, 0.4);
+  backdrop-filter: blur(2px);
+  z-index: 100000;
+
+  position: fixed;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.logo_icon_container {
+  display: flex;
+  padding: 6px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 12px;
+  border: 1px solid #0e464f;
+  background-color: #052f35;
+}
+
+.logo_icon {
+  width: 24px;
+  height: 24px;
+}
+
+.logo_image {
+  width: 43.793px;
+  height: 22.624px;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  gap: 1.6rem;
+}
+
+.link {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  /* gap: 10px; */
+}
+
+.link a:link,
+.link a:visited {
+  text-decoration: none;
+  color: #b3b3b3;
+  font-family: JejuMyeongjo;
+  font-size: 1.8rem;
+}
+
+.link a:hover,
+.link a:active {
+  color: #FFF;
+}
+
+a.active_header {
+  color: #FFF;
+}

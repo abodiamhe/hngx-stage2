@@ -1,0 +1,20 @@
+.ticket_heading {
+  width: 100%;
+}
+
+.ticket_subtitle {
+  display: flex;
+  align-items: center;
+}
+
+.ticket_selection {
+  color: #fff;
+  font-family: "Fraunces", serif;
+  font-size: 3.2rem;
+  line-height: normal;
+  margin-right: auto;
+}
+
+.ticket_step {
+  line-height: 150%; /* 24px */
+}

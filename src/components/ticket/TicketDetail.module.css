@@ -1,0 +1,13 @@
+.ticket_detail {
+  display: flex;
+  padding: 2.4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3.2rem;
+  align-self: stretch;
+
+  border-radius: 32px;
+  border: 1px solid #0e464f;
+  background-color: #08252b; 
+}

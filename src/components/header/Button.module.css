@@ -1,0 +1,14 @@
+.button {
+  font-family: "Fraunces", serif;
+  font-weight: 300;
+  display: inline-flex;
+  text-transform: uppercase;
+  padding: 1.6rem 2.4rem;
+  justify-content: center;
+  align-items: center; 
+  gap: 8px;
+  border-radius: 12px;
+  border: 1px solid rgba(213, 234, 0, 0.1);
+  background: #fff;
+  cursor: pointer;
+}

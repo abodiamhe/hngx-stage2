@@ -1,0 +1,16 @@
+.ticket {
+  background-color: aqua;
+  width: 100%;
+  max-width: 70rem;
+  display: flex;
+  padding: 4.8rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+
+
+  border-radius: 40px;
+  border: 1px solid #0e464f;
+  background: #041e23;
+}  

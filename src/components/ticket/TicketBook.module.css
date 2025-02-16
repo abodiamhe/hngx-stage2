@@ -1,0 +1,156 @@
+.book_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  gap: 3.2rem;
+  /* align-self: stretch; */
+  text-align: center; 
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+  align-self: stretch; 
+}
+
+.card_container {
+  display: flex;
+  padding: 3.2rem 2.1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch; 
+}
+
+.card {
+  width: 30rem;
+  height: 60rem;
+  /* border: 1px solid #24a0b5; */
+  background-image: url("../../assets/bg.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* background-color: #12464e; */
+  /* background-color: #71a7af; */ 
+}
+
+.card_ticket {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 26rem;
+  height: 44.6rem;
+  padding: 1.4rem;
+  align-items: center;
+  margin: 2rem auto;
+  flex-shrink: 0;
+
+  border-radius: 16px;
+  border: 1px solid #24a0b5;
+  /* background-color: rgba(3, 30, 33, 0.1); */
+  /* background-color: #12464e; */
+  /* backdrop-filter: blur(2px); */
+}
+
+.card_ticket_header_container {
+  text-align: center;
+}
+
+.card_ticket_header {
+  font-family: "Road Rage";
+  font-size: 3.4rem;
+  line-height: 100%;
+}
+
+.card_ticket_loc {
+  display: flex;
+  padding: 0.4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.card_ticket_loc span {
+  /* display: inline-block; */
+  color: #fff;
+
+  font-size: 1rem;
+  line-height: 150%;
+}
+
+.photo_preload {
+  /* position: absolute;   */
+  width: 14rem;
+  height: 14rem;
+  /* top: -1; */
+  border: 4px solid rgba(36, 160, 181, 0.5);
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.card_ticket_detail {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch; */
+
+  text-align: start;
+  width: 100%;
+  padding: 0.4rem;
+  border-radius: 8px;
+  border: 1px solid #133d44;
+  background-color: #08343c;
+}
+
+.detail_row {
+  display: flex;
+  gap: 0.8rem;
+  align-content: flex-start;
+
+  /* align-items: start; */
+  /* align-self: stretch; */
+
+  border-bottom: 1px solid #12464e;
+}
+
+.det_1 {
+  display: flex;
+  padding: 0.4rem;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: flex-start; */
+  gap: 4px;
+  flex: 1;
+  border-right: 1px solid #12464e;
+}
+
+.det_2 {
+  display: flex;
+  padding: 0.4rem;
+  flex-direction: column;
+  flex: 1;
+  gap: 4px;
+}
+
+.det_title {
+  font-size: 1rem;
+  opacity: 0.33;
+}
+
+.det_special {
+  font-size: 1rem;
+}
+
+.det_subTitle {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 150%;
+}

@@ -1,0 +1,59 @@
+input[type="file"] {
+  display: none;
+}
+
+.photo {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  width: 100%;
+  padding: 2.4rem 2.4rem 4.8rem 2.4rem;
+
+  border-radius: 24px;
+  border: 1px solid #07373f;
+  background-color: #052228;
+}
+
+.photo_upload {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.file {
+  text-align: center;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+  width: 24rem;
+  height: 24rem;
+
+  cursor: pointer;
+  padding: 2.4rem;
+  border-radius: 32px;
+  border: 4px solid rgba(36, 160, 181, 0.5);
+  background-color: #0e464f;
+  /* z-index: 1;  */
+}
+
+.photo_preload {
+  position: absolute;
+  width: 24rem;
+  height: 24rem;
+  top: -1;
+  border: 4px solid rgba(36, 160, 181, 0.5);
+  border-radius: 32px;
+  object-fit: cover;
+  /* z-index: 2; */
+}
+
+.photo_preload:hover {
+  opacity: 0.2;
+  pointer-events: none;
+}
