@@ -5,6 +5,12 @@
   align-self: stretch;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .action_button {
+    flex-direction: column;
+  }
+} 
+
 .cancel,
 .next {
   flex: 1 0 0;

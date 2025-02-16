@@ -16,7 +16,7 @@ export default function Header() {
           </div>
           <img src={ticzIcon} alt="logo image" className={classes.logo_image} />
         </div>
-        <div>
+        <div className={classes.hide}>
           <ul className={classes.links}>
             <li className={classes.link}>
               <NavLink to="/" end>

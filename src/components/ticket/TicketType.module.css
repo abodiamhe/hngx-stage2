@@ -18,6 +18,12 @@
   background-color: #052228;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .type_detail {
+    flex-direction: column;
+  }
+}
+
 .radio_group {
   flex: 1 1 33.33%;
   height: auto;

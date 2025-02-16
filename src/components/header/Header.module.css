@@ -17,6 +17,13 @@
   position: fixed;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .hide {
+    display: none;
+  }
+}
+
+
 .logo {
   display: flex;
   align-items: center;
